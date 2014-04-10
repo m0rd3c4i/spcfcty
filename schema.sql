@@ -5,5 +5,11 @@ CREATE TABLE statements(
 
 CREATE TABLE words(
 	word_key VARCHAR(8),
-	word_text TEXT
+	word_text TEXT,
+	node_list TEXT
+);
+
+CREATE TABLE nodes(
+	node_key VARCHAR(8),
+	word_list TEXT
 );
